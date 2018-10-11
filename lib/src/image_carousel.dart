@@ -98,9 +98,9 @@ class _CarouselImageState extends State<CarouselImageWidget> {
     if (platform == TargetPlatform.iOS) {
       return new CupertinoActivityIndicator();
     } else {
-      return new Container(
-        height: 40.0,
-        width: 40.0,
+      return new Center(
+        // height: 40.0,
+        // width: 40.0,
         child: new CircularProgressIndicator(),
       );
     }
